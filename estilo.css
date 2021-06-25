@@ -1,0 +1,90 @@
+body {
+    background: black;
+    font: normal 15pt Arial sans-serif;
+    padding: 6vw;
+
+}
+header {
+    color: goldenrod;
+    text-align: center;
+    font: normal 2.5vw Hervetica sans-serif;
+
+}
+
+img {
+    width: 40vw;
+    border-radius: 50%;
+}
+
+section {
+    background: linear-gradient(rgba(255, 255, 255, 0.865),rgba(255, 255, 255, 0.133));
+    border-radius: 17.028rem;
+    padding: 6vw;
+    width: 45vw;
+    height: 45vw;
+    margin: auto;
+    box-shadow: 0.032rem 0.032rem 0.16rem rgba(0, 0, 0, 0.507);
+
+}
+div {
+    text-align: center;
+    padding: 8px;
+}
+footer {
+    color:rgb(243, 255, 251);
+    text-align: center;
+    font-style: italic;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 641px) {
+    section {
+        background: linear-gradient(rgba(255, 255, 255, 0.865),rgba(255, 255, 255, 0.133));
+        border-radius: 17.028rem;
+        padding: 6vw;
+        width: 35vw;
+        height: 35vw;
+        margin: auto;
+        box-shadow: 0.032rem 0.032rem 0.16rem rgba(0, 0, 0, 0.507);
+    
+    }
+
+    img {
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    section {
+        background: linear-gradient(rgba(255, 255, 255, 0.865),rgba(255, 255, 255, 0.133));
+        border-radius: 17.028rem;
+        padding: 6vw;
+        width: 25vw;
+        height: 25vw;
+        margin: auto;
+        box-shadow: 0.032rem 0.032rem 0.16rem rgba(0, 0, 0, 0.507);
+    
+    }
+
+    img {
+        width: 200px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 1007px) {
+    section {
+        border-radius: 180px;
+        padding: 20px;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    
+    }
+
+    img {
+        width: 250px;
+        border-radius: 50%;
+    }
+}
